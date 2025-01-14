@@ -75,7 +75,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                         ),
                         onTap: () async {
                           // Navigate to TaskDetailsScreen and await the result
-                          final result = await Navigator.pushNamed(
+                       Navigator.pushNamed(
                             context,
                             '/taskDetails',
                             arguments: tasks[index]['id'],
